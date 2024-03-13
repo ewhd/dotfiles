@@ -1,0 +1,3 @@
+[submodule "/home/ewhd/.config/emacs"]
+	path = /home/ewhd/.config/emacs
+	url = git@github.com:ewhd/emacs.git
