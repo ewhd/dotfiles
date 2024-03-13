@@ -26,14 +26,8 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-# XDG
-export XDG_CONFIG_HOME=$HOME/.config
-export XDG_DATA_HOME=$HOME/.local/share
-export XDG_CACHE_HOME=$HOME/.cache
-export XDG_STATE_HOME=$HOME/.local/state
 
-# From XDG_ninja
-export HISTFILE="${XDG_STATE_HOME}"/bash/history
-export LESSHISTFILE="$XDG_STATE_HOME"/less/history
-export ZDOTDIR="$HOME"/.config/zsh
-export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
+# if my custom environment variables file exists, source it:
+if [ -f $HOME/.config/ewhd/ewhd_env ]; then
+    . $HOME/.config/ewhd/ewhd_env
+fi

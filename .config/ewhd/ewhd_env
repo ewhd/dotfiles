@@ -1,0 +1,41 @@
+# this is a file of all my custom environment variables and path additions
+
+ensure_dir_exists() {
+    local directory_path="$1"
+    if [ ! -d "$directory_path" ]; then
+        mkdir -p "$directory_path"
+    fi
+}
+
+
+
+#### XDG Base Directories:
+## set the variables, then create the directories if they don't exist
+export XDG_CONFIG_HOME=$HOME/.config && ensure_dir_exists $XDG_CONFIG_HOME
+export XDG_CACHE_HOME=$HOME/.cache && ensure_dir_exists $XDG_CACHE_HOME
+export XDG_DATA_HOME=$HOME/.local/share && ensure_dir_exists $XDG_DATA_HOME
+export XDG_STATE_HOME=$HOME/.local/state && ensure_dir_exists $XDG_STATE_HOME
+
+
+#### XDG Environment Variable to Simplify $HOME
+## Mostly suggested by xdg_ninja.sh
+## set the variables, then create the directories if they don't exist
+export HISTFILE="${XDG_STATE_HOME}"/bash/history && ensure_dir_exists $HISTFILE
+export LESSHISTFILE="$XDG_STATE_HOME"/less/history && ensure_dir_exists $LESSHISTFILE
+export ZDOTDIR="$HOME"/.config/zsh && ensure_dir_exists $ZDOTDIR
+export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority && ensure_dir_exists $XAUTHORITY
+
+
+
+#### Path Additions:
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+
