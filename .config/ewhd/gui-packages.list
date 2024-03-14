@@ -1,0 +1,20 @@
+# This is a list of GUI packages I want installed
+# Call this list with apt-get -y --ignore-missing install $(< packages.list)
+# apt-get is preferred to apt for scripting
+
+rofi
+# rofi-dev libtools libtools-bin
+vivaldi-stable
+nitrogen
+flatpak
+vlc
+copyq
+
+
+# Only for bare-metal install:
+barrier
+remmina
+
+# for connectivity:
+tailscale
+xrdp

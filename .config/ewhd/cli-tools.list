@@ -1,0 +1,22 @@
+# This is a list of common command CLI tools I want installed
+# Call this list with apt-get -y --ignore-missing install $(< packages.list)
+# apt-get is preferred to apt for scripting
+
+nmap
+qalc
+ranger
+htop
+locate
+zsh
+yadm
+git
+xsel
+wget
+curl
+tmux
+vim
+
+
+
+# not basic, but still a cli:
+ffmpeg
