@@ -12,6 +12,7 @@ yadm submodule update --recursive --init
 # if my custom environment variables file exists, source it:
 if [ -f $HOME/.config/ewhd/ewhd-env ]
 then
+    printf "Sourcing custom environment settings...\n"
     . $HOME/.config/ewhd/ewhd-env
 else
     printf "WARNING: custom environment settings file (~/config/ewhd/ewhd-env) not found\nSome things may not work as expected\n" > /dev/stderr
@@ -22,7 +23,7 @@ fi
 # if my custom install script exists, attempt to execute it with sudo privileges:
 if [ -f $HOME/.config/ewhd/install-script.sh ]
 then
-    printf "Custom install script found--executing with sudo privileges:"
+    printf "Custom install script found--executing with sudo privileges:\n"
     sudo $HOME/.config/ewhd/install-script.sh
 else
     printf "WARNING: custom install script (~/config/ewhd/install-script.sh) not found\nSome things may not work as expected\n" > /dev/stderr
