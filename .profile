@@ -28,6 +28,6 @@ fi
 
 
 # if my custom environment variables file exists, source it:
-if [ -f $HOME/.config/ewhd/ewhd_env ]; then
-    . $HOME/.config/ewhd/ewhd_env
+if [ -f $HOME/.config/ewhd/ewhd-env ]; then
+    . $HOME/.config/ewhd/ewhd-env
 fi
