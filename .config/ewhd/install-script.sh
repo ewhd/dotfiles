@@ -21,7 +21,7 @@ apt-get -y --ignore-missing install $(< basic-packages.list)
 
 # Change shell:
 if grep -q /bin/zsh /etc/shells; then
-    chsh -s /bin/zsh ewhd && printf "\nShell changed to zsh\n"
+    sudo chsh -s /bin/zsh ewhd && printf "\nShell changed to zsh\n"
 fi
 
 #EOF
