@@ -25,7 +25,7 @@ fi
 
 # Change shell:
 if grep -q /bin/zsh /etc/shells; then
-    sudo chsh -s /bin/zsh ewhd && printf "\nShell changed to zsh\n"
+    chsh -s /bin/zsh ewhd && printf "\nShell changed to zsh\n"
 fi
 
 #EOF
