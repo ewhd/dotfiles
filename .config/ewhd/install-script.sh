@@ -11,13 +11,17 @@ else
 fi
 
 
+# !!! Package install is still a work in progress !!!
+
 # Install basic packages:
-printf "Installing basic packages..."
-apt-get -y --ignore-missing install $(< basic-packages.list)
+#printf "Installing basic packages..."
+#source basic-packages.list
 
 # Install common packages:
 # printf "Installing common packages..."
 # Apt-get -y --ignore-missing install $(< common-packages.list)
+
+#sudo apt-get -y --ignore-missing install "${pkgs[@]}"
 
 # Change shell:
 if grep -q /bin/zsh /etc/shells; then
