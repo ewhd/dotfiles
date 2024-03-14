@@ -73,16 +73,10 @@ fi
 # | ALIASES |
 # +---------+
 
+# source POSIX compliant aliases
 source $XDG_CONFIG_HOME/ewhd/ewhd-aliases
 
-
-# +---------+
-# | SCRIPTS |
-# +---------+
-
-source $XDG_CONFIG_HOME/ewhd/ewhd-scripts.sh
-
-source $XDG_CONFIG_HOME/ewhd/ewhd-scripts.zsh
+# include any zsh-specific aliases here:
 
 
 # +--------+

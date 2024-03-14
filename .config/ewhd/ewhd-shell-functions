@@ -1,3 +1,14 @@
+#!/bin/sh
+
+# Check if a directory exists, and if it does not then create the ocmplete directory path
+# !!! This function is needed for shell initialization !!!
+#     Specificially, ewhd-env is dependent on it
+ensure_dir_exists() {
+    local directory_path="$1"
+    if [ ! -d "$directory_path" ]; then
+        mkdir -p "$directory_path"
+    fi
+}
 
 
 # Function to quit ranger into the current dir
