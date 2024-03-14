@@ -3,9 +3,9 @@
 # this is a file of all my custom environment variables and path additions
 
 # Source custom shell functions (needed for at least the ensure_dir_exists function, which is used by this and other environment setting configs)
-if [ -f $(dirname $(readlink -f "$0"))/ewhd-shell-functions ]
+if [ -f $HOME/.config/ewhd/ewhd-shell-functions ]
 then
-    . $(dirname $(readlink -f "$0"))/ewhd-shell-functions
+    . $HOME/.config/ewhd/ewhd-shell-functions
 else
     printf "WARNING: custom shell functions file (ewhd-shell-functions) not found\nSome things may not work as expected\n" > /dev/stderr
 fi

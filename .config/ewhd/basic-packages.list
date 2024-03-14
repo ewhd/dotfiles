@@ -1,9 +1,8 @@
-# This is a list of common command CLI tools I want installed
+# This is a list of very basic packages I expect to have access to every system (mostly common command CLI tools)
 # Call this list with apt-get -y --ignore-missing install $(< packages.list)
 # apt-get is preferred to apt for scripting
 
 nmap
-qalc
 ranger
 htop
 locate
@@ -15,8 +14,7 @@ wget
 curl
 tmux
 vim
+# emacs # see special install line in install-script.sh
 
 
-
-# not basic, but still a cli:
-ffmpeg
+#EOF
