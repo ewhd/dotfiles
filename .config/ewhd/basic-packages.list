@@ -4,7 +4,7 @@
 # Call this list with apt-get -y --ignore-missing install $(< packages.list)
 # apt-get is preferred to apt for scripting
 
-pkgs(
+pkgs=(
 	nmap
 	ranger
 	htop
