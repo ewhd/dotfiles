@@ -29,6 +29,9 @@ export ZDOTDIR="$HOME"/.config/zsh && ensure_dir_exists $ZDOTDIR
 export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority && ensure_dir_exists $XAUTHORITY
 
 
+# Avoid loading Ranger config twice:
+export RANGER_LOAD_DEFAULT_RC=FALSE
+
 
 #### Path Additions:
 
