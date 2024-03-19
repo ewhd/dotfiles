@@ -18,7 +18,7 @@ ensure_dir_exists() {
 ranger() {
 	local IFS=$'\t\n'
 	local tempfile="$(mktemp -t tmp.XXXXXX)"
-	local ranger_cmd={command ranger --cmd="map Q chain shell echo %d > "$tempfile"; quitall"}
+	local ranger_cmd=(command ranger --cmd="map Q chain shell echo %d > "$tempfile"; quitall")
 	
 	${ranger_cmd[@]} "$@"
 	if [[ -f "$tempfile" ]] && [[ "$(cat -- "$tempfile")" != "$(echo -n `pwd`)" ]]; then
