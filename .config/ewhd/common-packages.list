@@ -1,20 +1,18 @@
-# This is a list of GUI packages I want installed
+# This is a list of common packages I want installed on any system with a GUI that I'll be working on regularly
 # Call this list with apt-get -y --ignore-missing install $(< packages.list)
 # apt-get is preferred to apt for scripting
 
-rofi
+# rofi
 # rofi-dev libtools libtools-bin
 vivaldi-stable
 nitrogen
 flatpak
 vlc
 copyq
-
-
-# Only for bare-metal install:
+ffmpeg
+qalc
 barrier
 remmina
 
-# for connectivity:
-tailscale
-xrdp
+
+#EOF

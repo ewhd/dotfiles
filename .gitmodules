@@ -1,12 +1,9 @@
-[submodule "/home/ewhd/.config/emacs"]
-	path = /home/ewhd/.config/emacs
+[submodule ".config/emacs"]
+	path = .config/emacs
 	url = git@github.com:ewhd/emacs.git
-[submodule "/home/ewhd/.config/xdg-ninja"]
-	path = /home/ewhd/.config/xdg-ninja
+[submodule ".config/xdg-ninja"]
+	path = .config/xdg-ninja
 	url = https://github.com/b3nj5m1n/xdg-ninja.git
-[submodule "/home/ewhd/.emacs.d"]
-	path = /home/ewhd/.emacs.d
-	url = git@github.com:ewhd/.emacs.d.git
 [submodule ".config/zsh/plugins/zsh-autosuggestions"]
 	path = .config/zsh/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git

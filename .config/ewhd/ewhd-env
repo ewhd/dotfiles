@@ -1,11 +1,14 @@
+#!/bin/sh
+
 # this is a file of all my custom environment variables and path additions
 
-ensure_dir_exists() {
-    local directory_path="$1"
-    if [ ! -d "$directory_path" ]; then
-        mkdir -p "$directory_path"
-    fi
-}
+# Source custom shell functions (needed for at least the ensure_dir_exists function, which is used by this and other environment setting configs)
+if [ -f $HOME/.config/ewhd/ewhd-shell-functions ]
+then
+    . $HOME/.config/ewhd/ewhd-shell-functions
+else
+    printf "WARNING: custom shell functions file (ewhd-shell-functions) not found\nSome things may not work as expected\n" > /dev/stderr
+fi
 
 
 
@@ -26,6 +29,9 @@ export ZDOTDIR="$HOME"/.config/zsh && ensure_dir_exists $ZDOTDIR
 export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority && ensure_dir_exists $XAUTHORITY
 
 
+# Avoid loading Ranger config twice:
+export RANGER_LOAD_DEFAULT_RC=FALSE
+
 
 #### Path Additions:
 
@@ -39,3 +45,10 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+# set PATH so it includes user's custom scripts if it exists
+if [ -d "$XDG_CONFIG_HOME/scripts" ] ; then
+    PATH="$XDG_CONFIG_HOME/scripts:$PATH"
+fi
+
+
+#EOF

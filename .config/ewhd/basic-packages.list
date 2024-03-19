@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# This is a list of very basic packages I expect to have access to every system (mostly common command CLI tools)
+# Call this list with apt-get -y --ignore-missing install $(< packages.list)
+# apt-get is preferred to apt for scripting
+
+pkgs=(
+	nmap
+	ranger
+	htop
+	locate
+	zsh
+	yadm
+	git
+	xsel
+	wget
+	curl
+	tmux
+	vim
+)
+
+sudo apt-get -y --ignore-missing install "${pkgs[@]}"
+
+# emacs # see special install line in install-script.sh
+
+
+#EOF

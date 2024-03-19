@@ -2,8 +2,11 @@
 
 
 # load custom environment variables
-if [ -f $HOME/.config/ewhd/ewhd-env ] ; then
+if [ -f $HOME/.config/ewhd/ewhd-env ]
+then
     . $HOME/.config/ewhd/ewhd-env
+else
+    printf "WARNING: custom environment settings file (ewhd-env) not found\nSome things may not work as expected\n" > /dev/stderr
 fi
 
 # Plugins
@@ -13,7 +16,7 @@ fpath=($ZDOTDIR/plugins $fpath) && if [ ! -d $ZDOTDIR/plugins ]; then mkdir -p $
 fpath=($ZDOTDIR/prompt $fpath)  && if [ ! -d $ZDOTDIR/prompt ]; then mkdir -p $ZDOTDIR/prompt; fi
 
 export ZDOTDIR=$HOME/.config/zsh
-export HISTFILE=$XDG_STATE_HOME/zsh/history && touch $HISTFILE
+export HISTFILE=$XDG_STATE_HOME/zsh/history && ensure_dir_exists $XDG_STATE_HOME/zsh && touch $HISTFILE
 export HISTSIZE=10000
 export SAVEHIST=$HISTSIZE                  # Maximum events in history file
 

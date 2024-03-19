@@ -28,6 +28,9 @@ fi
 
 
 # if my custom environment variables file exists, source it:
-if [ -f $HOME/.config/ewhd/ewhd-env ]; then
+if [ -f $HOME/.config/ewhd/ewhd-env ]
+then
     . $HOME/.config/ewhd/ewhd-env
+else
+    printf "WARNING: custom environment settings file (~/config/ewhd/ewhd-env) not found\nSome things may not work as expected\n" > /dev/stderr
 fi
