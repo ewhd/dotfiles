@@ -4,6 +4,10 @@
 # be run from within $HOME (assuming this is the root of your dotfiles)
 cd "$HOME"
 
+# Overwrite local versions of tracked files
+echo "Overwriting local versions of tracked files"
+yadm checkout "/home/ewhd"
+
 echo "Init submodules"
 yadm submodule update --recursive --init
 
@@ -28,3 +32,5 @@ then
 else
     printf "WARNING: custom install script (~/config/ewhd/install-script.sh) not found\nSome things may not work as expected\n" > /dev/stderr
 fi
+
+printf "\n\nBootstrap complete.\n\nStart a new session to ensure all changes take effect.\n\n"
