@@ -5,6 +5,11 @@
 # Use emacs keybindings even if our EDITOR is set to vi
 bindkey -e
 
+# make sure Ctrl + Forward/Backward moves by word as expected
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
+
 # +------------+
 # | NAVIGATION |
 # +------------+
