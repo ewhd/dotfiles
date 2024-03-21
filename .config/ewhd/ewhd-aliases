@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Quit ranger into the current dir
+# From: https://superuser.com/a/1043815
+alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
