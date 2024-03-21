@@ -11,21 +11,17 @@ ensure_dir_exists() {
 }
 
 
-# Function to quit ranger into the current dir
-# see
-# https://www.reddit.com/r/ranger/comments/bngtqt/how_to_exit_and_cd_into_last_dir_you_were_on/
-# and https://github.com/ranger/ranger/issues/1554
-ranger() {
-	local IFS=$'\t\n'
-	local tempfile="$(mktemp -t tmp.XXXXXX)"
-	local ranger_cmd=(command ranger --cmd="map Q chain shell echo %d > "$tempfile"; quitall")
-	
-	${ranger_cmd[@]} "$@"
-	if [[ -f "$tempfile" ]] && [[ "$(cat -- "$tempfile")" != "$(echo -n `pwd`)" ]]; then
-		cd -- "$(cat "$tempfile")" || return
-	fi
-	command rm -f -- "$tempfile" 2>/dev/null
+# Streamlined cd alternative
+# from: https://superuser.com/a/1244522
+c() {
+  if [ -n "$1" ]; then
+    cd "$1" || return 1
+  else
+    cd ..
+  fi
+  ll
 }
+ll() ( ls -hl --time-style="+%Y-%m-%d_%H:%M:%S" "$@"; )
 
 
 

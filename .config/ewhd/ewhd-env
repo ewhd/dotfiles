@@ -26,7 +26,7 @@ export XDG_STATE_HOME=$HOME/.local/state && ensure_dir_exists $XDG_STATE_HOME
 export HISTFILE="${XDG_STATE_HOME}"/bash/history && ensure_dir_exists $HISTFILE
 export LESSHISTFILE="$XDG_STATE_HOME"/less/history && ensure_dir_exists $LESSHISTFILE
 export ZDOTDIR="$HOME"/.config/zsh && ensure_dir_exists $ZDOTDIR
-export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority && ensure_dir_exists $XAUTHORITY
+#export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority && ensure_dir_exists $XAUTHORITY  # causes auth problems with xrdp
 
 
 # Avoid loading Ranger config twice:
