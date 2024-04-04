@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # add backports to apt and install emacs (to get emacs 29)
-if ! grep -q "deb http://deb.debian.org/debian bookworm-backports main" /etc/apt/sources.list
+if ! grep -q "deb https\?://deb.debian.org/debian/\? bookworm-backports main" /etc/apt/sources.list
 then
-    printf "\n\n# Add Debian Backports:\ndeb http://deb.debian.org/debian bookworm-backports main\n" >> /etc/apt/sources.list
+    printf "\n\n# Add Debian Backports:\ndeb https://deb.debian.org/debian/ bookworm-backports main\n" >> /etc/apt/sources.list
     apt-get update
     apt install -t bookworm-backports emacs
 else
