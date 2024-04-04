@@ -89,5 +89,6 @@
       <value type="string" value="Workspace 5"/>
       <value type="string" value="Workspace 6"/>
     </property>
+    <property name="margin_right" type="int" value="0"/>
   </property>
 </channel>
