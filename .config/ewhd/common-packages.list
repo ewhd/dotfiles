@@ -15,4 +15,13 @@ barrier
 remmina
 
 
+# Apps which required me to download the .deb and install manually
+dropbox
+chrome
+slack
+opentabletdriver # actually available on the repos
+# this also required me to install .NET https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian#debian-12
+
+
+
 #EOF

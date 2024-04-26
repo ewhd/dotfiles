@@ -36,8 +36,8 @@
       <property name="monitorDisplayPort-0" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="1"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
+          <property name="image-style" type="int" value="6"/>
+          <property name="last-image" type="string" value="/home/ewhd/Pictures/wallpapers/RMNKjEP.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="1"/>
@@ -69,7 +69,8 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="1"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
+          <property name="last-image" type="string" value="/home/ewhd/Pictures/0dbgaexeolw61.png"/>
+          <property name="backdrop-cycle-enable" type="bool" value="false"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="1"/>
@@ -113,7 +114,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-shapes.svg"/>
+          <property name="last-image" type="string" value="/home/ewhd/Pictures/wp10476753-river-map-wallpapers.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -124,8 +125,8 @@
       <property name="monitorDisplayPort-2" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-shapes.svg"/>
+          <property name="image-style" type="int" value="6"/>
+          <property name="last-image" type="string" value="/home/ewhd/Pictures/wallpapers/RMNKjEP.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -133,9 +134,52 @@
           <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-shapes.svg"/>
         </property>
       </property>
+      <property name="monitorDP-2" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="1"/>
+          <property name="image-style" type="int" value="6"/>
+          <property name="last-image" type="string" value="/home/ewhd/Pictures/wallpapers/RMNKjEP.jpg"/>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="1"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
+        </property>
+      </property>
+      <property name="monitorDP-0" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="1"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/ewhd/Pictures/wallpapers/RMNKjEP.jpg"/>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="1"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
+        </property>
+      </property>
+      <property name="monitorDP-6" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="1"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="1"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
+        </property>
+      </property>
     </property>
+    <property name="single-workspace-mode" type="bool" value="true"/>
+    <property name="single-workspace-number" type="int" value="0"/>
   </property>
   <property name="desktop-icons" type="empty">
     <property name="tooltip-size" type="double" value="72"/>
+    <property name="gravity" type="int" value="2"/>
+  </property>
+  <property name="last" type="empty">
+    <property name="window-width" type="int" value="760"/>
+    <property name="window-height" type="int" value="593"/>
   </property>
 </channel>
