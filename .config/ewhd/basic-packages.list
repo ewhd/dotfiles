@@ -17,6 +17,7 @@ pkgs=(
 	curl
 	tmux
 	vim
+	blueman
 )
 
 sudo apt-get -y --ignore-missing install "${pkgs[@]}"
