@@ -5,3 +5,5 @@
 	email = ewhd22@gmail.com
 [pull]
 	rebase = false
+[core]
+	excludesfile = /home/ewhd/.config/git/gitignore_global
