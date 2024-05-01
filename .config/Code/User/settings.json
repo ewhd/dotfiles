@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "gruvboxMaterial.darkSelection": "orange",
+    "gruvboxMaterial.darkWorkbench": "flat",
+    "explorer.confirmDragAndDrop": false
+}
