@@ -39,7 +39,7 @@
       <property name="output-name" type="string" value="Automatic"/>
     </property>
     <property name="panel-2" type="empty">
-      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="2"/>
       <property name="position" type="string" value="p=6;x=32;y=720"/>
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
@@ -92,8 +92,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (71%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (76%)"/>
+        <value type="string" value="system-config-printer"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="blueman-tray"/>
         <value type="string" value="xfce4-power-manager"/>
@@ -102,6 +101,8 @@
         <value type="string" value="ethernet network connection “wired connection 1” active"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="redshift"/>
+        <value type="string" value="dropbox-client-145018"/>
         <value type="string" value="dropbox-client-72965"/>
         <value type="string" value="dropbox-client-4568"/>
         <value type="string" value="dropbox-client-2445"/>
@@ -119,7 +120,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance103242;chromium.instance12746;chromium.instance3183;chromium.instance47343;chromium.instance59147;chromium.instance72125;chromium.instance73712;chromium.instance94020"/>
+      <property name="mpris-players" type="string" value="chromium.instance103242;chromium.instance12746;chromium.instance152884;chromium.instance3183;chromium.instance59147;chromium.instance72125;chromium.instance73712;chromium.instance94020;spotify"/>
     </property>
     <property name="plugin-11" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
