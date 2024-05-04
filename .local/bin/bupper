@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# https://askubuntu.com/a/962507
+
+if [ $# -gt 0 ]
+then
+  echo "Info: $0 will copy each file to a backup file with .bak extension"
+  for file in "$@"
+  do
+    cp -pvi "$file" "${file}.bak"
+  done
+else
+  echo "Info: $0 copies to a backup file"
+  echo "Usage: $0 <file(s) to be backed up with .bak extension>"
+fi
