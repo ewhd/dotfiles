@@ -122,6 +122,23 @@
         <property name="Y" type="int" value="1440"/>
       </property>
     </property>
+    <property name="eDP-1" type="string" value="Laptop">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="c597159ff835a9d474dd1f9b7658e435be64c8e1"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.020425119435018"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
   </property>
   <property name="Fallback" type="empty">
     <property name="DisplayPort-0" type="string" value="ViewSonic Corporation 27&quot;">
@@ -241,6 +258,23 @@
       <property name="Position" type="empty">
         <property name="X" type="int" value="542"/>
         <property name="Y" type="int" value="1440"/>
+      </property>
+    </property>
+    <property name="eDP-1" type="string" value="Laptop">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="c597159ff835a9d474dd1f9b7658e435be64c8e1"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.020425119435018"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
       </property>
     </property>
   </property>
@@ -404,12 +438,21 @@
       </property>
     </property>
   </property>
+<<<<<<< HEAD
   <property name="7505d64a54e061b7acd54ccd58b49dc43500b635" type="string" value="default">
     <property name="DP-0" type="string" value="ViewSonic Corporation 27&quot;">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="5d8603dba2beb925f14df7bae321ee2502f4e9ff"/>
       <property name="Resolution" type="string" value="2560x1440"/>
       <property name="RefreshRate" type="double" value="59.950550105254798"/>
+=======
+  <property name="58ab491f567f42ca39bcd2d2ff6a6f9c87eb02e3" type="string" value="ewhd-default-laptop">
+    <property name="eDP-1" type="string" value="Laptop">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="c597159ff835a9d474dd1f9b7658e435be64c8e1"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.020425119435018"/>
+>>>>>>> ba68d96409f21491ecd23372b84c47e609dac04e
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
@@ -418,6 +461,7 @@
         <property name="Y" type="double" value="1"/>
       </property>
       <property name="Position" type="empty">
+<<<<<<< HEAD
         <property name="X" type="int" value="2560"/>
         <property name="Y" type="int" value="0"/>
       </property>
@@ -435,10 +479,13 @@
         <property name="Y" type="double" value="1"/>
       </property>
       <property name="Position" type="empty">
+=======
+>>>>>>> ba68d96409f21491ecd23372b84c47e609dac04e
         <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
+<<<<<<< HEAD
     <property name="HDMI-1-2" type="string" value="Dell Inc. 19&quot;">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="b8c62142f8b3e9298dec1669accc7b0e560cde5a"/>
@@ -456,5 +503,7 @@
         <property name="Y" type="int" value="1440"/>
       </property>
     </property>
+=======
+>>>>>>> ba68d96409f21491ecd23372b84c47e609dac04e
   </property>
 </channel>
