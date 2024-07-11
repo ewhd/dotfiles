@@ -58,6 +58,7 @@
       <property name="&lt;Primary&gt;&lt;Super&gt;s" type="string" value="xfce4-screenshooter -w"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;&lt;Super&gt;Escape" type="string" value="xkill"/>
       <property name="&lt;Super&gt;w" type="string" value="xfwm4-settings"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;v" type="string" value="xfce4-popup-clipman-actions"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
