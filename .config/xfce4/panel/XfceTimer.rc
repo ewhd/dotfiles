@@ -1,5 +1,5 @@
 [G0]
-timername=30
+timername=30min
 time=1800
 timercommand=
 timerinfo=30m 0s
@@ -8,10 +8,28 @@ is_recur=false
 autostart=false
 
 [G1]
-timername=45
+timername=45min
 time=2700
 timercommand=
 timerinfo=45m 0s
+is_countdown=true
+is_recur=false
+autostart=false
+
+[G2]
+timername=test
+time=5
+timercommand=
+timerinfo=5s
+is_countdown=true
+is_recur=false
+autostart=false
+
+[G3]
+timername=
+time=1200
+timercommand=
+timerinfo=20m 0s
 is_countdown=true
 is_recur=false
 autostart=false

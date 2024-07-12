@@ -11,7 +11,7 @@
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
-      <property name="size" type="uint" value="30"/>
+      <property name="size" type="uint" value="40"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="7"/>
         <value type="int" value="1"/>
@@ -26,6 +26,8 @@
         <value type="int" value="8"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
+        <value type="int" value="17"/>
+        <value type="int" value="9"/>
         <value type="int" value="13"/>
         <value type="int" value="14"/>
       </property>
@@ -38,15 +40,10 @@
     </property>
     <property name="panel-2" type="empty">
       <property name="autohide-behavior" type="uint" value="2"/>
-<<<<<<<< HEAD:.config/xfce4/ewhd-netbook-xfconf/xfce-perchannel-xml/xfce4-panel.xml
-      <property name="position" type="string" value="p=12;x=608;y=735"/>
-      <property name="length" type="double" value="11.127379209370424"/>
-========
       <property name="position" type="string" value="p=7;x=37;y=720"/>
       <property name="length" type="double" value="11.111111111111111"/>
->>>>>>>> 314511d8f3489d773521427ff029b68125099809:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
       <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="45"/>
+      <property name="size" type="uint" value="64"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="47"/>
         <value type="int" value="48"/>
@@ -63,18 +60,13 @@
         <value type="int" value="50"/>
       </property>
       <property name="span-monitors" type="bool" value="false"/>
-      <property name="mode" type="uint" value="0"/>
+      <property name="mode" type="uint" value="1"/>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="leave-opacity" type="uint" value="100"/>
       <property name="output-name" type="string" value="Automatic"/>
       <property name="icon-size" type="uint" value="0"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="disable-struts" type="bool" value="false"/>
-<<<<<<<< HEAD:.config/xfce4/ewhd-netbook-xfconf/xfce-perchannel-xml/xfce4-panel.xml
-      <property name="nrows" type="uint" value="1"/>
-      <property name="background-style" type="uint" value="0"/>
-========
->>>>>>>> 314511d8f3489d773521427ff029b68125099809:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -100,29 +92,12 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
-<<<<<<<< HEAD:.config/xfce4/ewhd-netbook-xfconf/xfce-perchannel-xml/xfce4-panel.xml
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (78%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (71%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (87%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (64%)"/>
-        <value type="string" value="dropbox"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (56%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (57%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (92%)"/>
-        <value type="string" value="wi-fi network connection “ulthwe” active: ulthwe (59%)"/>
-        <value type="string" value="wi-fi network connection “ulthwe” active: ulthwe (66%)"/>
-        <value type="string" value="wi-fi network connection “ulthwe” active: ulthwe (63%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (68%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (67%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (82%)"/>
-========
 <<<<<<<< HEAD:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
         <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (97%)"/>
         <value type="string" value="dropbox"/>
         <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (75%)"/>
         <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (82%)"/>
         <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (77%)"/>
->>>>>>>> 314511d8f3489d773521427ff029b68125099809:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
         <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (55%)"/>
         <value type="string" value="user authentication required for wi-fi network “tp-link_fe11”…"/>
         <value type="string" value="wi-fi network connection “tp-link_fe11” active: tp-link_fe11 (77%)"/>
@@ -141,22 +116,6 @@
         <value type="string" value="ethernet network connection “wired connection 1” active"/>
       </property>
       <property name="known-items" type="array">
-<<<<<<<< HEAD:.config/xfce4/ewhd-netbook-xfconf/xfce-perchannel-xml/xfce4-panel.xml
-        <value type="string" value="dropbox-client-16699"/>
-        <value type="string" value="dropbox-client-15942"/>
-        <value type="string" value="dropbox-client-11865"/>
-        <value type="string" value="dropbox-client-35054"/>
-        <value type="string" value="dropbox-client-2527"/>
-        <value type="string" value="dropbox-client-59366"/>
-        <value type="string" value="dropbox-client-9471"/>
-        <value type="string" value="dropbox-client-2632"/>
-        <value type="string" value="dropbox-client-48173"/>
-        <value type="string" value="vlc"/>
-        <value type="string" value="dropbox-client-2634"/>
-        <value type="string" value="dropbox-client-16909"/>
-        <value type="string" value="dropbox-client-15146"/>
-        <value type="string" value="dropbox-client-10168"/>
-========
 <<<<<<<< HEAD:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
         <value type="string" value="dropbox-client-38135"/>
         <value type="string" value="dropbox-client-33088"/>
@@ -164,7 +123,6 @@
         <value type="string" value="vlc"/>
         <value type="string" value="dropbox-client-2676"/>
         <value type="string" value="dropbox-client-242614"/>
->>>>>>>> 314511d8f3489d773521427ff029b68125099809:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
         <value type="string" value="dropbox-client-2458"/>
         <value type="string" value="dropbox-client-29533"/>
         <value type="string" value="dropbox-client-2712"/>
@@ -206,18 +164,11 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-<<<<<<<< HEAD:.config/xfce4/ewhd-netbook-xfconf/xfce-perchannel-xml/xfce4-panel.xml
-      <property name="mpris-players" type="string" value="chromium.instance103242;chromium.instance11087;chromium.instance12746;chromium.instance16324;chromium.instance3025;chromium.instance3156;chromium.instance3183;chromium.instance3235;chromium.instance3242;chromium.instance3448;chromium.instance3513;chromium.instance3659;chromium.instance37344;chromium.instance40334;chromium.instance47343;chromium.instance59147;chromium.instance59758;chromium.instance72125;chromium.instance73712;chromium.instance94020;spotify;vlc"/>
-      <property name="enable-wnck" type="bool" value="false"/>
-      <property name="enable-multimedia-keys" type="bool" value="false"/>
-      <property name="enable-mpris" type="bool" value="true"/>
-========
 <<<<<<<< HEAD:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
       <property name="mpris-players" type="string" value="chromium.instance103242;chromium.instance12746;chromium.instance16324;chromium.instance3156;chromium.instance3183;chromium.instance3242;chromium.instance3414;chromium.instance3427;chromium.instance3448;chromium.instance3513;chromium.instance3659;chromium.instance37344;chromium.instance38746;chromium.instance47343;chromium.instance59147;chromium.instance72125;chromium.instance73712;chromium.instance94020;spotify;vlc"/>
 ========
       <property name="mpris-players" type="string" value="chromium.instance103242;chromium.instance12746;chromium.instance152884;chromium.instance3183;chromium.instance59147;chromium.instance72125;chromium.instance73712;chromium.instance94020;spotify"/>
 >>>>>>>> a9c90657ebb3204f2d497d02782bfdfa2501f6a8:.config/xfce4/ewhd-desktop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
->>>>>>>> 314511d8f3489d773521427ff029b68125099809:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
     </property>
     <property name="plugin-11" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -230,24 +181,7 @@
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-14" type="string" value="actions">
-      <property name="items" type="array">
-        <value type="string" value="-lock-screen"/>
-        <value type="string" value="-switch-user"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="-suspend"/>
-        <value type="string" value="-hibernate"/>
-        <value type="string" value="-hybrid-sleep"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="-shutdown"/>
-        <value type="string" value="-restart"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="+logout"/>
-        <value type="string" value="-logout-dialog"/>
-      </property>
-      <property name="appearance" type="uint" value="0"/>
-      <property name="button-title" type="uint" value="0"/>
-    </property>
+    <property name="plugin-14" type="string" value="actions"/>
     <property name="plugin-15" type="string" value="showdesktop"/>
     <property name="plugin-16" type="string" value="separator"/>
     <property name="plugin-21" type="string" value="separator"/>
@@ -282,7 +216,6 @@
       <property name="show-wireframes" type="bool" value="true"/>
       <property name="include-all-workspaces" type="bool" value="false"/>
       <property name="show-only-minimized" type="bool" value="false"/>
-      <property name="middle-click" type="uint" value="0"/>
     </property>
     <property name="plugin-30" type="string" value="separator">
       <property name="style" type="uint" value="1"/>
@@ -295,24 +228,6 @@
       <property name="expand" type="bool" value="false"/>
       <property name="style" type="uint" value="0"/>
     </property>
-<<<<<<<< HEAD:.config/xfce4/ewhd-netbook-xfconf/xfce-perchannel-xml/xfce4-panel.xml
-    <property name="clipman" type="empty">
-      <property name="settings" type="empty">
-        <property name="show-qr-code" type="bool" value="false"/>
-        <property name="add-primary-clipboard" type="bool" value="true"/>
-        <property name="enable-actions" type="bool" value="false"/>
-        <property name="max-images-in-history" type="uint" value="1"/>
-      </property>
-      <property name="tweaks" type="empty">
-        <property name="popup-at-pointer" type="bool" value="true"/>
-      </property>
-    </property>
-    <property name="plugin-18" type="string" value="xfce4-timer-plugin"/>
-    <property name="plugin-19" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-20" type="string" value="separator">
-========
     <property name="plugin-45" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
@@ -332,7 +247,6 @@
     </property>
     <property name="plugin-9" type="string" value="battery"/>
     <property name="plugin-17" type="string" value="separator">
->>>>>>>> 314511d8f3489d773521427ff029b68125099809:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
       <property name="style" type="uint" value="0"/>
     </property>
   </property>
