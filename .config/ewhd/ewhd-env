@@ -50,5 +50,8 @@ if [ -d "$XDG_CONFIG_HOME/scripts" ] ; then
     PATH="$XDG_CONFIG_HOME/scripts:$PATH"
 fi
 
+# Force Anki to run on Wayland:
+export ANKI_WAYLAND=1
+
 
 #EOF

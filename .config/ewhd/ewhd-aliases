@@ -3,3 +3,6 @@
 # Quit ranger into the current dir
 # From: https://superuser.com/a/1043815
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
+
+# Start WMs with 'exec' preceeding them, so that when they stop (or crash) user is not left logged in
+alias sway='exec sway'
