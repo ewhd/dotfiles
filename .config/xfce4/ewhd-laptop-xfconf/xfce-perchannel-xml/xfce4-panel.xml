@@ -91,6 +91,11 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (97%)"/>
+        <value type="string" value="dropbox"/>
+        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (75%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (82%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (77%)"/>
         <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (55%)"/>
         <value type="string" value="user authentication required for wi-fi network “tp-link_fe11”…"/>
         <value type="string" value="wi-fi network connection “tp-link_fe11” active: tp-link_fe11 (77%)"/>
@@ -107,6 +112,12 @@
         <value type="string" value="ethernet network connection “wired connection 1” active"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="dropbox-client-38135"/>
+        <value type="string" value="dropbox-client-33088"/>
+        <value type="string" value="dropbox-client-2762"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="dropbox-client-2676"/>
+        <value type="string" value="dropbox-client-242614"/>
         <value type="string" value="dropbox-client-2458"/>
         <value type="string" value="dropbox-client-29533"/>
         <value type="string" value="dropbox-client-2712"/>
@@ -136,7 +147,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance103242;chromium.instance12746;chromium.instance16324;chromium.instance3156;chromium.instance3183;chromium.instance3242;chromium.instance3448;chromium.instance3513;chromium.instance3659;chromium.instance37344;chromium.instance47343;chromium.instance59147;chromium.instance72125;chromium.instance73712;chromium.instance94020;spotify"/>
+      <property name="mpris-players" type="string" value="chromium.instance103242;chromium.instance12746;chromium.instance16324;chromium.instance3156;chromium.instance3183;chromium.instance3242;chromium.instance3414;chromium.instance3427;chromium.instance3448;chromium.instance3513;chromium.instance3659;chromium.instance37344;chromium.instance38746;chromium.instance47343;chromium.instance59147;chromium.instance72125;chromium.instance73712;chromium.instance94020;spotify;vlc"/>
     </property>
     <property name="plugin-11" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
