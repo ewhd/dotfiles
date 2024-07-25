@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="displays" version="1.0">
-<<<<<<<< HEAD:.config/xfce4/ewhd-netbook-xfconf/xfce-perchannel-xml/displays.xml
   <property name="ActiveProfile" type="string" value="Default"/>
-========
-  <property name="ActiveProfile" type="string" value="7505d64a54e061b7acd54ccd58b49dc43500b635"/>
->>>>>>>> 314511d8f3489d773521427ff029b68125099809:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/displays.xml
   <property name="Default" type="empty">
     <property name="DisplayPort-0" type="string" value="ViewSonic Corporation 27&quot;">
       <property name="Active" type="bool" value="true"/>
@@ -126,7 +122,6 @@
         <property name="Y" type="int" value="1440"/>
       </property>
     </property>
-<<<<<<<< HEAD:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/displays.xml
     <property name="eDP-1" type="string" value="Laptop">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="01345e4d02067e7dd21d4e10fccc45d5c9d32656"/>
@@ -161,8 +156,6 @@
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
-========
->>>>>>>> a9c90657ebb3204f2d497d02782bfdfa2501f6a8:.config/xfce4/ewhd-desktop-xfconf/xfce-perchannel-xml/displays.xml
   </property>
   <property name="Fallback" type="empty">
     <property name="DisplayPort-0" type="string" value="ViewSonic Corporation 27&quot;">
@@ -286,15 +279,9 @@
     </property>
     <property name="HDMI-2" type="string" value="ViewSonic Corporation 27&quot;">
       <property name="Active" type="bool" value="true"/>
-<<<<<<<< HEAD:.config/xfce4/ewhd-netbook-xfconf/xfce-perchannel-xml/displays.xml
-      <property name="EDID" type="string" value="01345e4d02067e7dd21d4e10fccc45d5c9d32656"/>
-      <property name="Resolution" type="string" value="1366x768"/>
-      <property name="RefreshRate" type="double" value="60.020370550004849"/>
-========
       <property name="EDID" type="string" value="4b182db8f2af7779ce6f8098b61cf388fe958b2c"/>
       <property name="Resolution" type="string" value="2560x1440"/>
       <property name="RefreshRate" type="double" value="59.950550105254798"/>
->>>>>>>> 314511d8f3489d773521427ff029b68125099809:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/displays.xml
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
