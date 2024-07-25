@@ -122,43 +122,6 @@
         <property name="Y" type="int" value="1440"/>
       </property>
     </property>
-<<<<<<<< HEAD:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/displays.xml
-    <property name="eDP-1" type="string" value="Laptop">
-      <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="c597159ff835a9d474dd1f9b7658e435be64c8e1"/>
-      <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="60.020425119435018"/>
-      <property name="Rotation" type="int" value="0"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
-      <property name="Scale" type="empty">
-        <property name="X" type="double" value="1"/>
-        <property name="Y" type="double" value="1"/>
-      </property>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="0"/>
-      </property>
-    </property>
-    <property name="HDMI-2" type="string" value="ViewSonic Corporation 27&quot;">
-      <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="4b182db8f2af7779ce6f8098b61cf388fe958b2c"/>
-      <property name="Resolution" type="string" value="2560x1440"/>
-      <property name="RefreshRate" type="double" value="59.950550105254798"/>
-      <property name="Rotation" type="int" value="0"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
-      <property name="Scale" type="empty">
-        <property name="X" type="double" value="1"/>
-        <property name="Y" type="double" value="1"/>
-      </property>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="1920"/>
-        <property name="Y" type="int" value="0"/>
-      </property>
-    </property>
-========
->>>>>>>> a9c90657ebb3204f2d497d02782bfdfa2501f6a8:.config/xfce4/ewhd-desktop-xfconf/xfce-perchannel-xml/displays.xml
   </property>
   <property name="Fallback" type="empty">
     <property name="DisplayPort-0" type="string" value="ViewSonic Corporation 27&quot;">

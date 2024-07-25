@@ -13,23 +13,16 @@
       <property name="icon-size" type="uint" value="0"/>
       <property name="size" type="uint" value="40"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="7"/>
-        <value type="int" value="1"/>
+        <value type="int" value="8"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
+        <value type="int" value="7"/>
         <value type="int" value="10"/>
-        <value type="int" value="25"/>
-        <value type="int" value="27"/>
+        <value type="int" value="1"/>
+        <value type="int" value="11"/>
         <value type="int" value="4"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
-        <value type="int" value="8"/>
-        <value type="int" value="11"/>
-        <value type="int" value="12"/>
-        <value type="int" value="17"/>
-        <value type="int" value="9"/>
-        <value type="int" value="13"/>
-        <value type="int" value="14"/>
       </property>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="mode" type="uint" value="0"/>
@@ -41,24 +34,9 @@
     <property name="panel-2" type="empty">
       <property name="autohide-behavior" type="uint" value="2"/>
       <property name="position" type="string" value="p=7;x=37;y=720"/>
-      <property name="length" type="double" value="11.111111111111111"/>
+      <property name="length" type="double" value="16.736111111111111"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="64"/>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="47"/>
-        <value type="int" value="48"/>
-        <value type="int" value="46"/>
-        <value type="int" value="45"/>
-        <value type="int" value="15"/>
-        <value type="int" value="44"/>
-        <value type="int" value="16"/>
-        <value type="int" value="29"/>
-        <value type="int" value="30"/>
-        <value type="int" value="28"/>
-        <value type="int" value="21"/>
-        <value type="int" value="22"/>
-        <value type="int" value="50"/>
-      </property>
       <property name="span-monitors" type="bool" value="false"/>
       <property name="mode" type="uint" value="1"/>
       <property name="enter-opacity" type="uint" value="100"/>
@@ -67,6 +45,13 @@
       <property name="icon-size" type="uint" value="0"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="disable-struts" type="bool" value="false"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="15"/>
+        <value type="int" value="9"/>
+        <value type="int" value="16"/>
+        <value type="int" value="12"/>
+        <value type="int" value="17"/>
+      </property>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -92,162 +77,42 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
-<<<<<<<< HEAD:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (97%)"/>
-        <value type="string" value="dropbox"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (75%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (82%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (77%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (55%)"/>
-        <value type="string" value="user authentication required for wi-fi network “tp-link_fe11”…"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11” active: tp-link_fe11 (77%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (80%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11” active: tp-link_fe11 (62%)"/>
-        <value type="string" value="redshift-gtk"/>
-        <value type="string" value="wi-fi network connection “tp-link_fe11_5g” active: tp-link_fe11_5g (69%)"/>
-========
->>>>>>>> a9c90657ebb3204f2d497d02782bfdfa2501f6a8:.config/xfce4/ewhd-desktop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
-        <value type="string" value="system-config-printer"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="blueman-tray"/>
-        <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="blueman"/>
-        <value type="string" value="clipman"/>
         <value type="string" value="ethernet network connection “wired connection 1” active"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="xfce4-power-manager"/>
       </property>
       <property name="known-items" type="array">
-<<<<<<<< HEAD:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
-        <value type="string" value="dropbox-client-38135"/>
-        <value type="string" value="dropbox-client-33088"/>
-        <value type="string" value="dropbox-client-2762"/>
-        <value type="string" value="vlc"/>
-        <value type="string" value="dropbox-client-2676"/>
-        <value type="string" value="dropbox-client-242614"/>
-        <value type="string" value="dropbox-client-2458"/>
-        <value type="string" value="dropbox-client-29533"/>
-        <value type="string" value="dropbox-client-2712"/>
-        <value type="string" value="dropbox-client-4489"/>
-        <value type="string" value="dropbox-client-2666"/>
-        <value type="string" value="Claudia"/>
-        <value type="string" value="Cadence"/>
-        <value type="string" value="dropbox-client-2995"/>
-        <value type="string" value="dropbox-client-148845"/>
-        <value type="string" value="dropbox-client-2755"/>
-========
-        <value type="string" value="dropbox-client-5012"/>
-        <value type="string" value="dropbox-client-2436"/>
-        <value type="string" value="dropbox-client-9879"/>
-        <value type="string" value="dropbox-client-2579"/>
-        <value type="string" value="dropbox-client-2584"/>
-        <value type="string" value="dropbox-client-5316"/>
-        <value type="string" value="dropbox-client-2603"/>
-        <value type="string" value="dropbox-client-30721"/>
-        <value type="string" value="dropbox-client-29261"/>
-        <value type="string" value="dropbox-client-27401"/>
->>>>>>>> a9c90657ebb3204f2d497d02782bfdfa2501f6a8:.config/xfce4/ewhd-desktop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
-        <value type="string" value="redshift"/>
-        <value type="string" value="dropbox-client-145018"/>
-        <value type="string" value="dropbox-client-72965"/>
-        <value type="string" value="dropbox-client-4568"/>
-        <value type="string" value="dropbox-client-2445"/>
-        <value type="string" value="dropbox-client-2422"/>
-        <value type="string" value="dropbox-client-2428"/>
-        <value type="string" value="dropbox-client-2396"/>
-        <value type="string" value="dropbox-client-20585"/>
-        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="dropbox-client-3271"/>
+        <value type="string" value="dropbox-client-2400"/>
         <value type="string" value="blueman"/>
-        <value type="string" value="zoom"/>
-        <value type="string" value="Barrier"/>
-        <value type="string" value="remmina-icon"/>
       </property>
     </property>
-    <property name="plugin-8" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="show-notifications" type="bool" value="true"/>
-<<<<<<<< HEAD:.config/xfce4/ewhd-laptop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
-      <property name="mpris-players" type="string" value="chromium.instance103242;chromium.instance12746;chromium.instance16324;chromium.instance3156;chromium.instance3183;chromium.instance3242;chromium.instance3414;chromium.instance3427;chromium.instance3448;chromium.instance3513;chromium.instance3659;chromium.instance37344;chromium.instance38746;chromium.instance47343;chromium.instance59147;chromium.instance72125;chromium.instance73712;chromium.instance94020;spotify;vlc"/>
-========
-      <property name="mpris-players" type="string" value="chromium.instance103242;chromium.instance12746;chromium.instance152884;chromium.instance3183;chromium.instance59147;chromium.instance72125;chromium.instance73712;chromium.instance94020;spotify"/>
->>>>>>>> a9c90657ebb3204f2d497d02782bfdfa2501f6a8:.config/xfce4/ewhd-desktop-xfconf/xfce-perchannel-xml/xfce4-panel.xml
+    <property name="plugin-8" type="string" value="whiskermenu">
+      <property name="mpris-players" type="string" value="chromium.instance103242;chromium.instance12746;chromium.instance14715;chromium.instance152884;chromium.instance3183;chromium.instance59147;chromium.instance72125;chromium.instance73712;chromium.instance94020;spotify"/>
+    </property>
+    <property name="plugin-1" type="string" value="cpugraph"/>
+    <property name="plugin-7" type="string" value="systemload"/>
+    <property name="plugin-10" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-11" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-12" type="string" value="clock">
-      <property name="mode" type="uint" value="2"/>
-      <property name="digital-time-font" type="string" value="Sans 12"/>
-      <property name="digital-time-format" type="string" value="%I:%M %p"/>
-    </property>
-    <property name="plugin-13" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-14" type="string" value="actions"/>
+    <property name="plugin-9" type="string" value="separator"/>
+    <property name="plugin-12" type="string" value="separator"/>
     <property name="plugin-15" type="string" value="showdesktop"/>
-    <property name="plugin-16" type="string" value="separator"/>
-    <property name="plugin-21" type="string" value="separator"/>
-    <property name="plugin-22" type="string" value="directorymenu">
-      <property name="base-directory" type="string" value="/home/ewhd"/>
-    </property>
-    <property name="plugin-7" type="string" value="whiskermenu"/>
-    <property name="plugin-10" type="string" value="cpugraph"/>
-    <property name="plugin-25" type="string" value="systemload">
-      <property name="cpu" type="empty">
-        <property name="enabled" type="bool" value="true"/>
-      </property>
-      <property name="uptime" type="empty">
-        <property name="enabled" type="bool" value="true"/>
-      </property>
-    </property>
-    <property name="plugin-27" type="string" value="separator">
-      <property name="expand" type="bool" value="false"/>
-      <property name="style" type="uint" value="3"/>
-    </property>
-    <property name="plugin-28" type="string" value="windowmenu">
-      <property name="style" type="uint" value="0"/>
-      <property name="workspace-actions" type="bool" value="true"/>
-    </property>
-    <property name="plugin-29" type="string" value="tasklist">
+    <property name="plugin-16" type="string" value="tasklist">
       <property name="show-labels" type="bool" value="false"/>
-      <property name="show-handle" type="bool" value="true"/>
-      <property name="show-tooltips" type="bool" value="true"/>
       <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="true"/>
       <property name="sort-order" type="uint" value="4"/>
-      <property name="grouping" type="bool" value="true"/>
+      <property name="middle-click" type="uint" value="3"/>
       <property name="show-wireframes" type="bool" value="true"/>
+      <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
+      <property name="grouping" type="bool" value="true"/>
       <property name="include-all-workspaces" type="bool" value="false"/>
-      <property name="show-only-minimized" type="bool" value="false"/>
     </property>
-    <property name="plugin-30" type="string" value="separator">
-      <property name="style" type="uint" value="1"/>
-    </property>
-    <property name="plugin-1" type="string" value="separator">
-      <property name="style" type="uint" value="1"/>
-      <property name="expand" type="bool" value="false"/>
-    </property>
-    <property name="plugin-44" type="string" value="separator">
-      <property name="expand" type="bool" value="false"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-45" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-46" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-47" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-48" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-50" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-      <property name="expand" type="bool" value="true"/>
-    </property>
-    <property name="plugin-9" type="string" value="battery"/>
-    <property name="plugin-17" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
+    <property name="plugin-17" type="string" value="windowmenu"/>
   </property>
 </channel>
