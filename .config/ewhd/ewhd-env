@@ -35,20 +35,19 @@ export RANGER_LOAD_DEFAULT_RC=FALSE
 
 #### Path Additions:
 
-# set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/bin" ] ; then
-    PATH="$HOME/bin:$PATH"
-fi
+add_to_path() {
+    for dir in "$@"; do
+        if [ -d "$dir" ] && [[ ":$PATH:" != *":$dir:"* ]]; then
+            PATH="$dir:$PATH"
+        fi
+    done
 
-# set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/.local/bin" ] ; then
-    PATH="$HOME/.local/bin:$PATH"
-fi
+    # De-duplication (removes all redundant entries, preserving the earliest)
+    export PATH=$(echo "$PATH" | awk -v RS=':' -v ORS=':' '!seen[$0]++' | sed 's/:$//')
+}
 
-# set PATH so it includes user's custom scripts if it exists
-if [ -d "$XDG_CONFIG_HOME/scripts" ] ; then
-    PATH="$XDG_CONFIG_HOME/scripts:$PATH"
-fi
+add_to_path "$HOME/bin" "$HOME/.local/bin" "/sbin" "/usr/sbin" "/usr/local/sbin"
+
 
 # Force Anki to run on Wayland:
 export ANKI_WAYLAND=1
