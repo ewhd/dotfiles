@@ -148,5 +148,10 @@ source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZDOTDIR/plugins/git-it-on/git-it-on.zsh
 
 
+# +--------+
+# | DIRENV |
+# +--------+
+# https://direnv.net/docs/hook.html#zsh
+eval "$(direnv hook zsh)"
 
 #EOF
